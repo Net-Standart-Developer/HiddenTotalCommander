@@ -1,0 +1,16 @@
+﻿<Window x:Class="XAmlApp.OpenFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XAmlApp"
+        mc:Ignorable="d"
+        Title="OpenFileWindow" Height="225" Width="400" ResizeMode="NoResize">
+    <StackPanel>
+        <TextBlock Margin="10 10 0 0" Height="25" Text="Введите путь к файлу"/>
+        <TextBox Margin="10 0 0 10" Name="Path" Width="200" Height="30" HorizontalAlignment="Left" />
+        <TextBlock Margin="10 0 0 0" Height="25" Text="*Введите путь к исполняемой программе"/>
+        <TextBox Margin="10 0 0 10" Name="PathForProgramm" Width="200" Height="30" HorizontalAlignment="Left" />
+        <Button Content="Открыть" Margin="10 0 0 0 " Click="Button_Click" Width="100" HorizontalAlignment="Left"/>
+    </StackPanel>
+</Window>
